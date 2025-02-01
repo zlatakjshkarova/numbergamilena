@@ -7,9 +7,9 @@ myBtn.addEventListener('click', () => {
     i++;
     let num = nameInput.value
     if (num == random) {
-        hh.textContent = 'ТЫ угадал число поздравляю'
+        hh.textContent = 'ТЫ угадал число поздравляю 👏'
     } else {
-        hh.textContent = 'К сажелению вы не угадали число'
+        hh.textContent = 'К сажелению вы не угадали число😢'
     }
 })
 let random = getRandomInt(1, 20);
